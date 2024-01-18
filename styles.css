@@ -1,0 +1,71 @@
+body {
+    background-image: url("gin-2300124.jpg");
+    background-size: cover;
+    font-family:    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    height: 100vh;
+}
+.container{
+    background: rgba(207, 201, 201, 0);
+    max-width: 80%;
+    margin: auto;
+    border: 3px solid black;
+    border-radius: 24px;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    -ms-border-radius: 24px;
+    -o-border-radius: 24px;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    /* color: ; */
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+#increment-btn:hover {
+    background: rgb(202, 175, 118);
+}
+
+#increment-btn {
+    background: rgba(202, 175, 118, 0.329);
+    color: #000;
+}
+
+
+#save-btn:hover   
+{
+
+    background: rgb(150, 182, 198);
+}
+#save-btn {
+    background: rgba(141, 170, 184, 0.413);
+    color: #000;
+}
+
+p{
+    color: rgb(255, 187, 172);
+    font-weight: bold;
+}
